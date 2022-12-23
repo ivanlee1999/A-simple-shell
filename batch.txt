@@ -1,0 +1,6 @@
+path /bin ./
+gcc /u/c/s/cs537-1/tests/p2a/tests/r23.c -o r23
+
+if r23 == 23 then ls /u/c/s/cs537-1/tests/p2a/tests/p2a-test > output31.out fi
+cat output31.out
+rm -rf r23 output31.out
